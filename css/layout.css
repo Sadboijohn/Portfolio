@@ -1,0 +1,107 @@
+body {
+    background-color: #c3ecff;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 30000px;
+}
+
+.header {
+    background-color: #cbeef3;
+    font-family: Roboto, Arial;
+    font-size: 24px;
+    height: 129px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: #c5dbe7 1px dashed;
+    position: fixed;
+    left: 120px;
+    right: 0;
+    z-index: 100;
+}
+
+.header-name {
+    margin: 0 10px;
+    font-weight: 700;
+    color: black;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.bio-section {
+    display: flex ;
+    left: 120px;
+    top: 129px;
+    position: absolute;
+    margin: 0 100px;
+    z-index: 0;
+}
+
+.bio-section p {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar {
+    height: auto;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d5f2ff;
+    border-right: #c5dbe7 1px dashed;
+}
+
+.photo-holder {
+    display: flex;
+    height: 129px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #c5dbe7 1px dashed;
+}
+
+.profiel-foto {
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+}
+
+.sidebar-links a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: #c5dbe7 1px dashed;
+    border-top: #c5dbe7 1px dashed;
+    width: 120px;
+    margin-bottom: 60px;
+}
+
+.sidebar-links a:hover {
+    background-color: #b8cfdc;
+}
+
+.left-icons {
+    padding-top: 5px;
+    height: 36px;
+}
+
+.link-names {
+    margin-top: 7px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
