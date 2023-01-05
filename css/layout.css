@@ -1,5 +1,5 @@
 body {
-    background-color: #c3ecff;
+    background-color: #d4effd;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -27,14 +27,16 @@ body {
     width: 50px;
 }
 .header {
-    background-color: #cbeef3;
+
+    background-color: #bcf2ff;
     font-family: Roboto, Arial;
     font-size: 28px;
     height: 130px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: #c5dbe7 1px dashed;
+    border-bottom: black 1px dotted;
+    border-left: 1px dotted black;
     position: fixed;
     left: 120px;
     right: 0;
@@ -78,19 +80,23 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #d5f2ff;
-    border-right: #c5dbe7 1px dashed;
+    background-color: #a5e0fa;
+    border-right: 1px black dotted;
     font-size: 24px;
+    margin-top: 130px;
+    margin-bottom: 20px;
 }
 
 .photo-holder {
+    background-color: #a5e0fa;
     display: flex;
     height: 130px;
     width: 120px;
     position: fixed;
+    top: 0;
     justify-content: center;
     align-items: center;
-    border-bottom: #c5dbe7 1px dashed;
+    border-bottom: black 1px dotted;
 
 }
 
@@ -110,19 +116,19 @@ body {
     rotate: 360deg;
 
 }
-.index-icon{
-    margin-top: 130px;
-}
 
 .sidebar-links a {
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: #c5dbe7 1px dashed;
-    border-top: #c5dbe7 1px dashed;
+    border: 1px solid ;
+
     width: 120px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+
+
 }
 
 .sidebar-links a:hover {
