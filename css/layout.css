@@ -4,13 +4,33 @@ body {
     flex-direction: column;
     margin: 0;
     height: 30000px;
+    scroll-behavior: smooth;
+    font-family: Roboto, Arial;
+    font-size: 30px;
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
+.scroll-to-top:hover {
+    opacity: 0.8;
+}
+.scroll-icon{
+    height: 50px;
+    width: 50px;
+}
 .header {
     background-color: #cbeef3;
     font-family: Roboto, Arial;
-    font-size: 24px;
-    height: 129px;
+    font-size: 28px;
+    height: 130px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,6 +52,8 @@ body {
     flex-direction: row;
     align-items: center;
     width: 100%;
+
+
 }
 
 .bio-section {
@@ -44,11 +66,9 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Roboto, Arial;
-    font-size: 24px;
     line-height: 1.5;
+    text-align: center;
 }
-
-
 .sidebar {
     height: auto;
     position: fixed;
@@ -60,21 +80,38 @@ body {
     align-items: center;
     background-color: #d5f2ff;
     border-right: #c5dbe7 1px dashed;
+    font-size: 24px;
 }
 
 .photo-holder {
     display: flex;
-    height: 129px;
+    height: 130px;
     width: 120px;
+    position: fixed;
     justify-content: center;
     align-items: center;
     border-bottom: #c5dbe7 1px dashed;
+
 }
 
 .profiel-foto {
     height: 100px;
     width: 100px;
     border-radius: 60px;
+    transition: box-shadow 20ms, border 2ms, rotate 3s;
+
+}
+.profiel-foto:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .30);
+}
+.profiel-foto:active{
+    box-shadow: 0 0 0 0;
+    border: 5px #86b5ce solid;
+    rotate: 360deg;
+
+}
+.index-icon{
+    margin-top: 130px;
 }
 
 .sidebar-links a {
