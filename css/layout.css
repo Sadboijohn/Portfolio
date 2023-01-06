@@ -165,23 +165,6 @@ body {
 .bio-photo:hover{
     box-shadow: 0px 6px 12px rgba(111, 88, 131, 0.9)
 }
-/* Add styles for screens wider than 600 pixels */
-@media (min-width: 600px) {
-    .header {
-        display: flex;
-        justify-content: space-between;
-    }
-    .main-content {
-        display: flex;
-        flex-direction: row;
-    }
-    .sidebar {
-        width: 25%;
-    }
-    .bio-section {
-        width: 75%;
-    }
-}
 
 
 
