@@ -166,7 +166,14 @@ body {
 .bio-photo:hover{
     box-shadow: 0px 6px 12px rgba(111, 88, 131, 0.9)
 }
+.job-div {
+    display: flex; /* This will make the div elements lay in a row */
+    margin: 0 10px; /* This will add a margin of 10px to the left and right sides of each div element */
+    width: 33%; /* This will make the div elements take up 33% of the width of their parent element */
+}
 
-
-
-
+@media screen and (max-width: 600px) {
+    .job-div {
+        width: 100%; /* This will make the div elements take up the full width of their parent element when the screen width is 600px or smaller */
+    }
+}
