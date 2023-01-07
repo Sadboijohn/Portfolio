@@ -40,7 +40,7 @@ body {
     position: fixed;
     left: 120px;
     right: 0;
-    z-index: 100;
+    z-index: 99;
 }
 
 .header-name {
@@ -62,8 +62,8 @@ body {
     display: flex ;
     left: 120px;
     top: 130px;
+    right: 0;
     position: absolute;
-    margin: 30px 60px;
     z-index: 0;
     justify-content: center;
     align-items: center;
@@ -86,6 +86,7 @@ body {
     font-size: 24px;
     margin-top: 130px;
     margin-bottom: 20px;
+    z-index: 100;
 }
 
 .photo-holder {
@@ -166,14 +167,45 @@ body {
 .bio-photo:hover{
     box-shadow: 0px 6px 12px rgba(111, 88, 131, 0.9)
 }
-.job-div {
-    display: flex; /* This will make the div elements lay in a row */
-    margin: 0 10px; /* This will add a margin of 10px to the left and right sides of each div element */
-    width: 33%; /* This will make the div elements take up 33% of the width of their parent element */
+.jobs-holder{
+
+    display: grid;
+    grid-row: span;
+    grid-column-gap: 5px;
+
+}
+.jobs{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    margin: 10px;
+    border: 1px groove #f9c0a4;
+    background-color: #fbe9fe;
+}
+.job-description{
+    background-color: whitesmoke;
+}
+.job-title{
+
+    height: 45px;
+    width: 400px;
+
+}
+.job-company{
+    height: 45px;
+    width: 400px;
+
+}
+.job-duration{
+    height: 45px;
+    width: 400px;
+
 }
 
-@media screen and (max-width: 600px) {
-    .job-div {
-        width: 100%; /* This will make the div elements take up the full width of their parent element when the screen width is 600px or smaller */
-    }
+
+.job-logo img{
+    object-fit: fill;
+    height: 265px;
+    width: 100%;
+
 }
