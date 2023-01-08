@@ -166,31 +166,37 @@ body {
 .bio-photo:hover{
     box-shadow: 0px 6px 12px rgba(111, 88, 131, 0.9)
 }
+.work-experience{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 800px;
+}
 
+.work-item {
 
-.jobs {
-    display: flex;
-    margin: 20px;
+    background-color:#fbe9fe ;
     border: 1px solid black;
-    height: 400px;
-
-
-
-
+    border-radius: 20px;
+    padding: 0px;
+    margin: 0px 20px 20px 0px;
+    align-items: center;
+    line-height: 0;
+}
+.work-item img{
+    border-radius: 20px;
+}
+.work-item:hover{
+    box-shadow: 0px 6px 12px rgba(111, 88, 131, 0.9)
 }
 
-
-.job-info {
-
-    background-color:  #fbe9fe ;
-    object-fit: scale-down;
+@media (min-width: 1100px) {
+    .work-experience {
+        grid-template-columns: 1fr 1fr ;
+    }
 }
-.job-logo {
-height: 500px;
+@media (max-width: 600px) {
+    .work-experience {
+        grid-template-columns: 1fr;
+    }
 }
 
-.job-description {
-
-    background-color: #fce6db;
-    border-left: 1px black solid;
-}
