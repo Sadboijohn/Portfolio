@@ -206,8 +206,9 @@ body {
 
 @media (min-width: 1400px) {
     .work-experience {
-        transform: scale(.9);
+        transform: scale(.8);
         grid-template-columns: 1fr 1fr;
+    }
 }
 @media (max-width: 600px) {
     .work-experience {
