@@ -267,6 +267,9 @@ body {
     .bio-section p {
         font-size: 40px;
     }
+    .company-logo{
+        width: 515px;
+    }
     .bio-header{
         padding-top: 80px;
     }
