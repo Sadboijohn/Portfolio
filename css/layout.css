@@ -79,6 +79,7 @@ body {
 }
 .bio-header{
     margin: 0;
+    transition: 3s;
 }
 .sidebar {
     height: auto;
@@ -114,7 +115,8 @@ body {
     height: 100px;
     width: 100px;
     border-radius: 60px;
-    transition: box-shadow 20ms, border 2ms, rotate 3s;
+    transition: box-shadow 20ms, border 2ms, rotate 3s, transform .3s;
+
 
 }
 .profiel-foto:hover{
@@ -139,6 +141,7 @@ body {
 
 
     text-align: center;
+
 
 }
 
@@ -238,6 +241,10 @@ body {
     border-radius: 4px;
     width: auto;
 }
+.sidebar-inner img, .sidebar-inner a, .sidebar-inner p{
+    transition: 1s;
+}
+
 
 
 
@@ -258,6 +265,9 @@ body {
     .sidebar-inner p{
         transform: scale(1.4);
         padding: 20px 20px 0px 20px
+    }
+    .profiel-foto{
+        transform: scale(1.10);
     }
 
 }
@@ -281,6 +291,9 @@ body {
         padding:    20px 20px 0px 20px
 
     }
+    .profiel-foto{
+        transform: scale(1.125);
+    }
     .bio-section p {
         font-size: 40px;
     }
@@ -288,7 +301,7 @@ body {
         width: 550px;
     }
     .bio-header{
-        padding-top: 80px;
+        padding-top: 20px;
     }
 }
 @media (max-width: 1080px) {
@@ -318,7 +331,7 @@ body {
         width: 550px;
     }
     .bio-header{
-        padding-top: 80px;
+        padding-top: 30px;
     }
 
 }
