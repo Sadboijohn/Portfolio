@@ -243,6 +243,12 @@ body {
         padding:    10px 20px 0px 20px
 
     }
+    .bio-section p {
+        font-size: 40px;
+    }
+    .company-logo{
+        width: 550px;
+    }
 }
 @media (max-width: 1080px) {
     .work-experience {
