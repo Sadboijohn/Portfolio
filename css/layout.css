@@ -7,7 +7,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    height: 30000px;
     scroll-behavior: smooth;
     font-family: Roboto, Arial;
     font-size: 30px;
