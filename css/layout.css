@@ -137,7 +137,7 @@ body {
     border-bottom: 1px dotted cadetblue;
     width: 120px;
 
-    padding: 20px 0px;
+
     text-align: center;
 
 }
@@ -216,7 +216,7 @@ body {
         padding-top: 20px;
     }
     .sidebar-inner a{
-        margin-bottom: 30px;
+        margin-bottom: 87px;
     }
     .sidebar-inner p{
         transform: scale(1.4);
@@ -240,7 +240,7 @@ body {
     }
     .sidebar-inner p{
         transform: scale(1.5);
-        padding: 20px 20px 0px 20px
+        padding:    10px 20px 0px 20px
 
     }
 }
@@ -253,10 +253,12 @@ body {
         transform: scale(1.7);
     }
     .sidebar-inner a{
-        margin-bottom: 120px;
+        margin-top:140px;
+        margin-bottom: 160px;
     }
     .sidebar-inner p{
         transform: scale(1.5);
+        padding-top: 20px;
 
     }
     .profiel-foto{
