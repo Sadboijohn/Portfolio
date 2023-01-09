@@ -253,8 +253,8 @@ body {
         transform: scale(1.7);
     }
     .sidebar-inner a{
-        margin-top:140px;
-        margin-bottom: 160px;
+        margin-top:75px;
+        margin-bottom: 180px;
     }
     .sidebar-inner p{
         transform: scale(1.5);
@@ -268,7 +268,7 @@ body {
         font-size: 40px;
     }
     .company-logo{
-        width: 515px;
+        width: 550px;
     }
     .bio-header{
         padding-top: 80px;
