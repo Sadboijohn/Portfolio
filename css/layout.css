@@ -238,8 +238,15 @@ body {
     margin: 0;
     border-top: 1px black solid;
     border-radius: 4px;
-    width: auto;
+
 }
+.social-box-LinkedIn{
+    background-image: linear-gradient(to left, blue, lightblue);
+    opacity: .8;
+    margin: 0;
+    border-top: 1px black solid;
+    border-radius: 4px;}
+
 .sidebar-inner img, .sidebar-inner a, .sidebar-inner p{
     transition: 1s;
 }
