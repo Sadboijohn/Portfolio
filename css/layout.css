@@ -216,7 +216,7 @@ body {
         padding-top: 20px;
     }
     .sidebar-inner a{
-        margin-bottom: 87px;
+        margin-bottom: 50px;
     }
     .sidebar-inner p{
         transform: scale(1.4);
@@ -263,6 +263,9 @@ body {
     }
     .profiel-foto{
         transform: scale(1.15);
+    }
+    .bio-section p {
+        font-size: 40px;
     }
 
 }
